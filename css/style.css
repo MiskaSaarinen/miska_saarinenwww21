@@ -16,3 +16,8 @@ background-color: seagreen;
 font-size: medium;
 color:snow
 }
+
+figcaption {
+    color: blue;
+    font-style: italic ;
+}
