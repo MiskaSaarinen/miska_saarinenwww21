@@ -4,3 +4,9 @@ body {
     font-size: larger;
     color:brown;
 }
+
+h1 {
+    border-bottom: red;
+    color: red;
+    font-size: 16px;
+}
