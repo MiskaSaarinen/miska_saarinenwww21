@@ -21,3 +21,8 @@ figcaption {
     color: blue;
     font-style: italic ;
 }
+
+address  {
+    margin-bottom: 50px;
+    font-size: larger;
+}
