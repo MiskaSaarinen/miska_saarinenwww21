@@ -6,50 +6,55 @@
     <title>Exercise 4</title>
     <style>
       .wrapper {
-          margin: auto;
+        margin: auto;
         width: 100%;
       }
       .top {
-          display: flex;
-          flex-flow: row wrap;
-          justify-content: flex-end;
-          margin: 0;
-          background-color: aquamarine;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-end;
+        margin: 0;
+        background-color: aquamarine;
+        text-align: center;
+        font-size: x-large;
 
       }
 
      
       
       .flexgrowcon {
-          display: flex;
-          align-items: stretch;
+        display: flex;
+        align-items: stretch;
       }
 
       leftbar,rightbar {
-          background-color: yellow;
+        background-color: yellow;
           
       }
 
       footer {
-          background-color: black;
-          color: white;
-          height: 40px;
-          text-align: center;
+        background-color: black;
+        color: white;
+        height: 40px;
+        text-align: center;
       }
+
     </style>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="top">
+
     <header>  
         HEADER
-    </header>     
+    </header>   
+     
  <div class="flexgrowcon">
      <leftbar style="flex-grow: 1;">  
+
         <ul class="topmenu">
             <li>Link 1</li>
             <li>Link 1</li>
-            <li>Link 1</li>
-            
+            <li>Link 1</li>    
         </ul>
 
     </leftbar>
