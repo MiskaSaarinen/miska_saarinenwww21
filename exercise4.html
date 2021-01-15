@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box - Layout</title>
+    <style>
+      .wrapper {
+          margin: auto;
+        width: 70%;
+      }
+      .topmenu {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: flex-end;
+          margin: 0;
+          background-color: crimson;
+
+      }
+
+      .topmenu > li {
+          list-style: none;
+          padding: 1em;
+          color: white;
+      }
+      .flexgrowcon {
+          display: flex;
+          align-items: stretch;
+      }
+
+      leftbar,rightbar {
+          background-color: yellow;
+          
+      }
+
+      footer {
+          background-color: black;
+          color: white;
+          height: 40px;
+          text-align: center;
+      }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+    <header>  
+        <ul class="topmenu">
+            <li>Link 1</li>
+            <li>Link 1</li>
+            <li>Link 1</li>
+            <li>Link 1</li>
+        </ul>
+    </header>     
+ <div class="flexgrowcon">
+     <leftbar style="flex-grow: 1;">  
+    Some text.
+
+    </leftbar>
+
+    <content style="flex-grow: 6">
+    This is goin to the main content.
+    </content>
+
+</div>
+<footer>
+    Hello world this is my footer.
+</footer>
+    </div>
+</body>
+</html>
