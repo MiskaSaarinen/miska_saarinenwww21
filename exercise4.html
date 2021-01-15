@@ -9,7 +9,7 @@
           margin: auto;
         width: 70%;
       }
-      .header {
+      .top {
           display: flex;
           flex-flow: row wrap;
           justify-content: flex-end;
@@ -18,7 +18,7 @@
 
       }
 
-      .header > li {
+      .top > li {
           list-style: none;
           padding: 1em;
           color: white;
@@ -44,21 +44,21 @@
 <body>
     <div class="wrapper">
     <header>  
+        HEADER
+    </header>     
+ <div class="flexgrowcon">
+     <leftbar style="flex-grow: 1;">  
         <ul class="topmenu">
             <li>Link 1</li>
             <li>Link 1</li>
             <li>Link 1</li>
-            <li>Link 1</li>
+            
         </ul>
-    </header>     
- <div class="flexgrowcon">
-     <leftbar style="flex-grow: 1;">  
-    Some text.
 
     </leftbar>
 
     <content style="flex-grow: 6">
-    This is goin to the main content.
+    
     </content>
 
 </div>
