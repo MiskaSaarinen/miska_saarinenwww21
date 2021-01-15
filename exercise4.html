@@ -13,14 +13,15 @@
           display: flex;
           flex-flow: row wrap;
           justify-content: flex-end;
-          margin:0;
-          background-color: rgb(20, 140, 220);
+          margin: 0;
+          background-color:burlywood;
+
       }
 
-      .topmenu > header {
-          color: white;
-          font-size: 20px;
-          text-align: center;
+      .topmenu > li {
+          list-style: none;
+          padding: 1em;
+          color: rgb(0, 0, 0);
       }
       .flexgrowcon {
           display: flex;
@@ -28,8 +29,7 @@
       }
 
       leftbar,rightbar {
-          background-color: lightcoral;
-          height: 800px;
+          background-color: rgb(139, 116, 66);
           
       }
 
@@ -44,7 +44,12 @@
 <body>
     <div class="wrapper">
     <header>  
-        TÄMÄ ON OTSIKKO!
+        <ul class="topmenu">
+            <li>Link 1</li>
+            <li>Link 1</li>
+            <li>Link 1</li>
+            <li>Link 1</li>
+        </ul>
     </header>     
  <div class="flexgrowcon">
      <leftbar style="flex-grow: 1;">  
@@ -58,7 +63,8 @@
 
 </div>
 <footer>
-    Hello world this is my footer.
+    <img src="images/house.png" style="float: right;" alt="Home;" width="30px" height="30px">
+    Miska Saarinen, 2021 Home page 
 </footer>
     </div>
 </body>
